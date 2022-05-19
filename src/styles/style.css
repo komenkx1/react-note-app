@@ -108,13 +108,13 @@ input::placeholder, textarea::placeholder {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 250px;
   height : 300px;
 }
 
 .note-item__content {
   padding: 12px;
   flex: 1;
+  width: 270px;
 }
 
 .note-item__title {
@@ -171,6 +171,20 @@ input::placeholder, textarea::placeholder {
 @media only screen and (min-width: 500px) {
   .notes-list {
     grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  .note-item__content{
+    width: 300px!important;
+  }
+  
+}
+
+@media  screen and (max-width: 800px) {
+  .note-item__content{
+    width: 350px!important;
   }
 }
 
