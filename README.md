@@ -4,6 +4,13 @@ Aplikasi pencatatan sederhana yang dibangun menggunakan framework javascript rea
 
 ## Running Scripts
 
+
+Development mode:
+
+### `npm install`
+
+Jalnkan kode di atas untuk menginstall semua package yang dibutuhkan dalam project ini setelah diclone.\
+
 Development mode:
 
 ### `npm start`
