@@ -11,9 +11,6 @@ Development mode:
 Jalnkan kode di atas untuk memulai mode pengembang.\
 Buka [http://localhost:3000](http://localhost:3000) untuk melihat project yang sedang berjalan.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 Build mode:
 ### `npm run build`
 
